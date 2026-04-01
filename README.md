@@ -62,12 +62,12 @@ The first run populates the cache. If the IP is clean, it will log a change (fro
 
 No change:
 ```
-2026-04-01T04:41:06+01:00 No change: 86.156.99.24|false|false|unknown
+2026-04-01T04:41:06+01:00 No change: 1.2.3.4|false|false|unknown
 ```
 
 Change detected:
 ```
-2026-04-01T04:41:06+01:00 Change detected and notified: IP=86.156.99.24 noise=false riot=false classification=unknown
+2026-04-01T04:41:06+01:00 Change detected and notified: IP=1.2.3.4 noise=false riot=false classification=unknown
 ```
 
 ## GreyNoise Fields
