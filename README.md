@@ -37,7 +37,7 @@ sudo apt install -y curl jq dnsutils
 Edit the config block at the top of the script:
 
 ```bash
-TARGET_HOST="your_dyndns_hostname"   # Hostname to monitor, e.g. glados.example.com
+TARGET_HOST="your_dyndns_hostname"   # Hostname to monitor
 GN_API_KEY="your_greynoise_api_key"  # GreyNoise API key (free tier supported)
 NTFY_TOPIC="your_ntfy_topic"         # ntfy.sh topic name
 NTFY_SERVER="https://ntfy.sh"        # ntfy server (change if self-hosting)
