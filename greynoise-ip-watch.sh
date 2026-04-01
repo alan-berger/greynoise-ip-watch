@@ -1,6 +1,6 @@
 !/usr/bin/env bash
-# greynoise-check.sh
-# Resolves glados.alanberger.me.uk, checks GreyNoise Community API,
+# greynoise-ip-watch.sh
+# Resolves TARGET_HOST, checks GreyNoise Community API,
 # notifies via ntfy.sh if IP or reputation status changes.
 # Dependencies: curl, jq, dig (dnsutils)
 
