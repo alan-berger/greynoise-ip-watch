@@ -63,7 +63,7 @@ PREV_NOISE=$( echo "$PREV_STATE" | cut -d'|' -f2)
 PREV_RIOT=$(  echo "$PREV_STATE" | cut -d'|' -f3)
 
 # --- Build notification ---
-TITLE="GLaDOS IP reputation change"
+TITLE="$TARGET_HOST IP reputation change"
 PRIORITY="default"
 TAGS="mag"
 LINES=()
