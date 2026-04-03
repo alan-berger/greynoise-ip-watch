@@ -6,7 +6,7 @@
 ![Notifications](https://img.shields.io/badge/notifications-ntfy.sh-purple)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
-A Bash script that resolves a dynamic DNS hostname to its current IP address, checks it against the [GreyNoise Community API](https://docs.greynoise.io/reference/get_v3-community-ip), and sends a push notification via [ntfy.sh](https://ntfy.sh) if the IP or its reputation status changes.
+A Bash script that resolves a DNS hostname to its current IP address, checks it against the [GreyNoise Community API](https://docs.greynoise.io/reference/get_v3-community-ip), and sends a push notification via [ntfy.sh](https://ntfy.sh) if the IP or its reputation status changes.
 
 ## Features
 
